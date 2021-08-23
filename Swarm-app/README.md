@@ -7,3 +7,6 @@ docker stack deploy --compose-file docker-compose.yaml swarm-app
 docker service ls
 docker network ls
 
+# List the services on the stack
+
+docker stack ps swarm-app
